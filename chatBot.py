@@ -12,7 +12,7 @@ def chatbot():
             print("Chatbot: Goodbye! Have a great day!")
             break
         
-        # Adjusting responses based on the query
+      
         elif re.search(r"hello|hi|hey", user_input):
             print("Chatbot: Namaste! How can I assist you today?")
         elif re.search(r"how are you", user_input):
